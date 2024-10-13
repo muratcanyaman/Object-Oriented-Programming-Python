@@ -31,7 +31,6 @@ class Item:
         '''
         This should do something that has a relationship with the class.But usually, those are used to
         manipulate different structures of data to instantiate objects,like we have done with CSV file.
-        :return:
         '''
         with open('items.csv', 'r') as file:
             reader = csv.DictReader(file)
